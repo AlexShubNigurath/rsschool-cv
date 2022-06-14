@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="..\Mission№21\style.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title>rs school task</title>
+    <title>My CV</title>
   </head>
   <body>
-    <h1>Заголовок таска!</h1>
-    <p>Именно так!</p>
+    <header>
+      <nav class="menu">
+        <a class="menu_button" href="#aboutme">About me</a>
+        <a class="menu_button" href="#skills">Skills</a> 
+        <a class="menu_button" href="#languages">Languages</a>
+        <a class="menu_button" href="#contacts">Contacts</a>
+      </nav>
+    </header>
+    <main>
+      <img class="img_one" id="aboutme" width="406" src="https://img.freepik.com/free-vector/cool-unicorn_92810-3.jpg" alt="https://color23.ru/content/pxp-template-set-cover/5F2054E55408D6D9F3CB0912388013C4.jpg?size=xs">
+      <div class="about">
+        <h1 class="about_zagolovok">Hi! My name is Alex!</h1>
+        <p class="about_text">I`m beginner in Front-End! Now I am education at the RSSchool course.</p>
+        <p class="about_text">I think I can become a good specialist :)</p>
+      </div>
+      <div class="skills" id="skills">
+        <h2 class="zagolovok">Hard Skills</h2>
+        <table class="skillstable">
+          <tr class="tables">
+            <td>Html</td>
+            <td>50%</td>
+          </tr>
+          <tr class="tables">
+            <td>Css</td>
+            <td>35%</td>
+          </tr>
+          <tr class="tables">
+            <td>JavaScript</td>
+            <td>Coming soon :)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="languages" id="languages">
+        <h2 class="zagolovok">I can speak the languages</h2>
+        <table>
+          <tr class="tables">
+            <td>Russian</td>
+            <td>Native</td>
+          </tr>
+          <tr class="tables">
+            <td>English</td>
+            <td>A2\B1</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contacts" id="contacts">
+        <h2 class="zagolovok">My Contacts</h2>
+        <a class="text_link" href="mailto:shubinalex36@gmail.com">My e-mail</a>
+        <p class="contacts_text">I`m in dicord: Alex (@AlexShubNigurath)</p>
+      </div>
+    </main>
+    <footer>
+      <p class="text_footer">&copy; 2022 by Alex Shubin</p>
+      <a class="link_footer" href="https://github.com/AlexShubNigurath">GitHub</a>
+      <a href="https://rs.school/js/"><img class="img_link" width="80" height="29" src="https://rs.school/images/rs_school_js.svg" alt=""></a>
+    </footer>
   </body>
 </html>
