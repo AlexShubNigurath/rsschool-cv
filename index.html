@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="..\Mission№21\style.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title>rs school task</title>
+    <title>My CV</title>
   </head>
   <body>
-    <h1>Заголовок таска!</h1>
-    <p>Именно так!</p>
+    <header>
+      <nav class="menu">
+        <a class="menu_button" href="#aboutme">About me</a>
+        <a class="menu_button" href="#skills">Skills</a>
+        <a class="menu_button" href="#languages">Languages</a>
+        <a class="menu_button" href="#contacts">Contacts</a>
+      </nav>
+    </header>
+    <main>
+      <div class="about" id="aboutme">
+        <img class="img_one" width="406" src="https://img.freepik.com/free-vector/cool-unicorn_92810-3.jpg" alt="https://color23.ru/content/pxp-template-set-cover/5F2054E55408D6D9F3CB0912388013C4.jpg?size=xs">
+        <h1 class="about_zagolovok">Hi! My name is Alex!</h1>
+        <p class="about_text">I`m beginner in Front-End! Now I am education at the RSSchool course.</p>
+        <p class="about_text">I think I can become a good specialist :)</p>
+      </div>
+      <div class="skills" id="skills">
+        <h2 class="zagolovok">Hard Skills</h2>
+        <table class="skillstable">
+          <tr class="tables">
+            <td class="tables_first">Html</td>
+            <td class="tables_first">50%</td>
+          </tr>
+          <tr class="tables">
+            <td class="tables_first">Css</td>
+            <td class="tables_first">35%</td>
+          </tr>
+          <tr class="tables">
+            <td class="tables_first">JavaScript</td>
+            <td class="tables_first">Coming soon :)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="languages" id="languages">
+        <h2 class="zagolovok">I can speak the languages</h2>
+        <table class="langtable">
+          <tr class="tables">
+            <td class="tables_second">Russian</td>
+            <td class="tables_second">Native</td>
+          </tr>
+          <tr class="tables">
+            <td class="tables_second">English</td>
+            <td class="tables_second">A2\B1</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contacts" id="contacts">
+        <h2 class="zagolovok">My Contacts</h2>
+        <a class="text_link" href="mailto:shubinalex36@gmail.com">E-mail</a>
+        <p class="contacts_text"><span class="contacts_text_preview">I`m in dicord:</span> Alex (@AlexShubNigurath)</p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_inner">
+        <p class="text_footer">&copy; 2022 by Alex Shubin</p>
+        <a class="link_footer" href="https://github.com/AlexShubNigurath">GitHub</a>
+        <a class="img_link" href="https://rs.school/js/"><img width="80" height="29" src="https://rs.school/images/rs_school_js.svg" alt=""></a>
+      </div>
+    </footer>
   </body>
 </html>
